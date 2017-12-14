@@ -95,13 +95,15 @@ footer{
   border-radius: 0px 0px 10px 10px;
 }
 
+footer div{
+margin: 0 auto;
+}
+
 #Contacto{
-  margin-left: 2em;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 0em;
   text-align: left;
-  border: 1px solid pink; /* Borrar esta linea */
 }
 
 #Terminos{
@@ -109,7 +111,6 @@ footer{
   padding-right: 2em;
   padding-top: 0em;
   text-align: left;
-  border: 1px solid pink; /* Borrar esta linea */
 }
 
 #Social{
@@ -117,7 +118,6 @@ footer{
   padding-right: 2em;
   padding-top: 0em;
   text-align: left;
-  border: 1px solid pink; /* Borrar esta linea */
 }
 
 #Derechos{
@@ -125,7 +125,6 @@ footer{
   padding-right: 2em;
   padding-top: 0em;
   text-align: left;
-  border: 1px solid pink; /* Borrar esta linea */
 }
 
 .fttext{
