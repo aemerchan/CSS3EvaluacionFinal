@@ -44,3 +44,102 @@ header{
 #PagInicio{
   text-decoration: none;
 }
+
+#ImgCentral{
+  display: flex;
+  flex-direction: column;
+  background-color: #82c3a6;
+  width: 100%;
+}
+
+#img001 img{
+  width: 80%;
+  box-shadow: 2px 2px 0px #02010a;
+}
+
+.Contenedor{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#ImgSecundaria{
+  display: flex;
+  flex-flow: column;
+  background-color: #d5c75f;
+  border: 1px solid #d5c75f;
+}
+
+#img002 img{
+  width: 70%;
+  box-shadow: 2px 2px 0px #82c3a6;
+  border: 2px solid black;
+}
+
+#img003 img{
+  width: 70%;
+  box-shadow: 2px 2px 0px #82c3a6;
+  border: 2px solid black;
+}
+
+#ImgSecundaria a{
+  color: black;
+  font-size: 1.5em;
+}
+
+footer{
+  display: flex;
+  flex-flow: row;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#Contacto{
+  margin-left: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+  border: 1px solid pink; /* Borrar esta linea */
+}
+
+#Terminos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+  border: 1px solid pink; /* Borrar esta linea */
+}
+
+#Social{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+  border: 1px solid pink; /* Borrar esta linea */
+}
+
+#Derechos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+  border: 1px solid pink; /* Borrar esta linea */
+}
+
+.fttext{
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.fttext a{
+  color: black;
+  text-decoration: none;
+}
+
+#Facebbok{
+  width: 15px;
+  border-radius: 3px;
+}
