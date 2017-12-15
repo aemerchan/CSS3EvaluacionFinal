@@ -92,3 +92,65 @@ header{
 #ImgRetGal003{
   filter: sepia(90%);
 }
+
+.Contenedor3{
+  display: flex;
+  flex-flow: row;
+  padding-top: 10px;
+  padding-bottom: 20px;;
+}
+
+footer{
+  display: flex;
+  flex-flow: row;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer div{
+margin: 0 auto;
+}
+
+#Contacto{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Terminos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Social{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Derechos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+.fttext{
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.fttext a{
+  color: black;
+  text-decoration: none;
+}
+
+#IcoSocial{
+  width: 15px;
+  border-radius: 3px;
+}
