@@ -1,0 +1,156 @@
+body{
+  width: 900px;
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes anmcontenedor {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+#contenido{
+  max-width: 900px;
+  margin: 0 auto;
+  animation: anmcontenedor 1.5s;
+}
+
+header{
+  display: flex;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#titulo{
+  display: flex;
+  float: left;
+  flex: auto;
+  color: white;
+  text-align: left;
+  text-shadow: 2px 2px 0px #02010a;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#MenuPpal{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  float: right;
+  color: white;
+}
+
+#MenuPpal a{
+  padding-left: 1em;
+  color: white;
+}
+
+#PagPaisajes{
+  text-decoration: none;
+}
+
+#galeria{
+  background-color: #d5c75f;
+}
+
+.contenedor1{
+  display: flex;
+  flex-flow: row;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contenedor2{
+  display: flex;
+  flex-flow: row;
+  padding-top: 10px;
+  padding-bottom: 20px;;
+}
+
+.ImgRetratosGaleria img{
+  width: 80%;
+  border: 1px solid black;
+}
+
+#ImgPaiGal001{
+  filter: blur(10px);
+}
+
+#ImgPaiGal002, #ImgPaiGal004, #ImgPaiGal006{
+  filter: grayscale(100%);
+}
+
+#ImgPaiGal003{
+  filter: sepia(90%);
+}
+
+.Contenedor3{
+  display: flex;
+  flex-flow: row;
+  padding-top: 10px;
+  padding-bottom: 20px;;
+}
+
+footer{
+  display: flex;
+  flex-flow: row;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+}
+
+footer div{
+margin: 0 auto;
+}
+
+#Contacto{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Terminos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Social{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+#Derechos{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  text-align: left;
+}
+
+.fttext{
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.fttext a{
+  color: black;
+  text-decoration: none;
+}
+
+#IcoSocial{
+  width: 15px;
+  border-radius: 3px;
+}
